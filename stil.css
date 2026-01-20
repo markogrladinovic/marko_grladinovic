@@ -1,0 +1,149 @@
+/* RESET & OSNOVNE POSTAVKE */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 20px;
+}
+
+/* NASLOVI */
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #bbbbbb;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* PARAGRAFI */
+p {
+    margin-bottom: 15px;
+}
+
+/* ISTICANJE TEKSTA */
+b {
+    color: #ffffff;
+}
+
+i {
+    color: #cccccc;
+}
+
+mark {
+    background-color: #f1c40f;
+    color: #000;
+    padding: 2px 4px;
+}
+
+q {
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+/* BLOK CITAT */
+blockquote {
+    background-color: #1e1e1e;
+    border-left: 5px solid #3498db;
+    margin: 20px;
+    padding: 15px;
+    font-style: italic;
+}
+
+/* LISTE */
+ul, ol {
+    margin: 15px 0 15px 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* NAVIGACIJA */
+nav {
+    background-color: #1f1f1f;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+nav p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* LINKOVI */
+a:link {
+    color: #4da3ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b388ff;
+}
+
+a:hover {
+    color: #ff7675;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff4d4d;
+}
+
+/* SLIKE */
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #1e1e1e;
+}
+
+/* VIDEO I AUDIO */
+video,
+audio {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #000;
+}
+
+/* KORISNE KLASE */
+.crveni {
+    color: #ff4d4d;
+}
+
+.kutija {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.centar {
+    text-align: center;
+}
